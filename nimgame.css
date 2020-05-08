@@ -1,0 +1,90 @@
+body
+{
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(background1.jpg);
+  height: 98vh;
+  background-size: contain;
+  background-position: center;
+}
+h1{
+font-family: 'Lobster', cursive;
+font-size: 2rem;
+line-height: 1;
+font-weight: 50px;
+text-align: center;
+color:#cc0066;
+}
+.heading
+{
+  padding:10px;
+}
+marquee
+{
+  font-family: 'Lobster', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  color:#0a065d;
+}
+img
+{
+  height: 100px;
+  border-radius: 100%;
+  margin-left: 400px;
+  float: left;
+}
+.stones1{
+  position: relative;
+}
+input[type=text]{
+width:5%;
+border:none
+margin-left: 1px;
+}
+button{
+  color: white;
+  margin-left: 6%;
+font-size: 15px;
+padding: 11px;
+padding-right: 3%;
+padding-left: 3%;
+text-shadow: 0px -1px 0px rgba(232, 154, 154, 0.32);
+-webkit-border-radius: 85.05402436127534px;
+-moz-border-radius: 85.05402436127534px;
+border-radius: 85.05402436127534px;
+background: rgb(133, 122, 147);
+background: -moz-linear-gradient(90deg, rgb(133, 122, 147) 30%, rgb(73, 20, 20) 73%);
+background: -webkit-linear-gradient(90deg, rgb(133, 122, 147) 30%, rgb(73, 20, 20) 73%);
+background: -o-linear-gradient(90deg, rgb(133, 122, 147) 30%, rgb(73, 20, 20) 73%);
+background: -ms-linear-gradient(90deg, rgb(133, 122, 147) 30%, rgb(73, 20, 20) 73%);
+background: linear-gradient(0deg, rgb(133, 122, 147) 30%, rgb(73, 20, 20) 73%);
+-webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+}
+.players
+{
+  margin-left: 35%;
+}
+h5
+{
+  font-size: 20px;
+}
+#b
+{
+  margin-right: 50%
+  float:left;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+#demo{
+  font-family: 'Lobster', cursive;
+  margin-left: 5%;
+  font-size: 25px;
+  color: #cc0e74;
+}
+#player1
+{
+  font-family: 'Lobster', cursive;
+  font-family: 'Dancing Script', cursive;
+  color:#0a065d;
+
+}
