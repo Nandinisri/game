@@ -39,12 +39,11 @@
 
     button2.onclick = function(){
       count++;
-      if(count % 2!==0)
-      {
-        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp  NOW 👻 PLAYER 2 IS PLAYING   ..<br>";
+      if(count % 2!==0){
+        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp  NOW IT'S 👻 PLAYER 2 TURN  ..<br>";
       }
       else {
-        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp 😉 PLAYER 1 IS PLAYING ..<br>";
+        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp IT'S😉 PLAYER 1 TURN ..<br>";
       }
 
       var n2 = document.getElementById("countButton2").value;
@@ -66,12 +65,11 @@
 
     button3.onclick = function(){
       count++;
-      if(count % 2!=0)
-      {
-        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp  NOW  IT'S 👻 PLAYER 2 TURN  ..<br>";
+      if(count % 2!==0){
+        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp  NOW IT'S 👻 PLAYER 2 TURN  ..<br>";
       }
       else {
-        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp IT'S 😉 PLAYER 1 TURN..<br>";
+        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp IT'S😉 PLAYER 1 TURN ..<br>";
       }
       var n3 = document.getElementById("countButton3").value;
       var n = document.getElementById("myText").value;
