@@ -14,10 +14,10 @@
     button1.onclick = function(){
       count++;
       if(count % 2==0){
-        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp  NOW 👻 PLAYER 2 IS PLAYING  ..<br>";
+        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp  NOW 👻 PLAYER 2 IS PLAYED  ..<br>";
       }
       else {
-        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp 😉 PLAYER 1 IS PLAYING ..<br>";
+        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp 😉 PLAYER 1 IS PLAYED ..<br>";
       }
       var n1 = document.getElementById("countButton1").value;
       var n = document.getElementById("myText").value;
@@ -41,10 +41,10 @@
       count++;
       if(count % 2==0)
       {
-        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp  NOW 👻 PLAYER 2 IS PLAYING   ..<br>";
+        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp  NOW 👻 PLAYER 2 IS PLAYED   ..<br>";
       }
       else {
-        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp 😉 PLAYER 1 IS PLAYING ..<br>";
+        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp 😉 PLAYER 1 IS PLAYED ..<br>";
       }
 
       var n2 = document.getElementById("countButton2").value;
@@ -68,10 +68,10 @@
       count++;
       if(count % 2==0)
       {
-        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp  NOW 👻 PLAYER 2 IS PLAYING   ..<br>";
+        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp  NOW 👻 PLAYER 2 IS PLAYED  ..<br>";
       }
       else {
-        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp 😉 PLAYER 1 IS PLAYING..<br>";
+        document.getElementById("player1").innerHTML = "&nbsp &nbsp &nbsp &nbsp &nbsp 😉 PLAYER 1 IS PLAYED..<br>";
       }
       var n3 = document.getElementById("countButton3").value;
       var n = document.getElementById("myText").value;
