@@ -26,6 +26,7 @@
       document.getElementById("demo").innerHTML = "The no.of balls left in the bag are : " + val  ;
 
       if(val <=0){
+     
         document.getElementById("countButton1").disabled = true;
           document.getElementById("countButton2").disabled = true;
           document.getElementById("countButton3").disabled = true;
