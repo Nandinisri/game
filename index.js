@@ -52,7 +52,7 @@
       val = Number(n) - res;
       document.getElementById("demo").innerHTML = "The no.of balls left in the bag are : " + val  ;
       if(val <=0 ){
-        if(count%2==0){
+        if(count%2!=0){
           document.getElementById("remaining").innerHTML = "";
           document.getElementById("player1").innerHTML = "👏🎈🎉🎊😉 PLAYER 1 Is WINNER !!..👏🎈🎉🎊😉";
         }
@@ -77,7 +77,7 @@
       val = Number(n) - res;
       document.getElementById("demo").innerHTML = "The no.of balls left in the bag are : " + val  ;
       if(val <=0){
-        if(count%2==0){
+        if(count%2!=0){
           document.getElementById("remaining").innerHTML = "";
           document.getElementById("player1").innerHTML = "👏🎈🎉🎊😉 PLAYER 1 Is WINNER !!..👏🎈🎉🎊😉";
         }
