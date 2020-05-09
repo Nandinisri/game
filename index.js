@@ -26,9 +26,9 @@
       document.getElementById("demo").innerHTML = "The no.of balls left in the bag are : " + val  ;
 
       if(val <=0){
-        document.getElementById("countButton1").innerHTML="";
-          document.getElementById("countButton2").innerHTML="";
-          document.getElementById("countButton3").innerHTML="";
+        document.getElementById("countButton1").disabled = true;
+          document.getElementById("countButton2").disabled = true;
+          document.getElementById("countButton3").disabled = true;
         if(count%2!=0){
           document.getElementById("remaining").innerHTML = "";
           document.getElementById("player1").innerHTML = "👏🎈🎉🎊😉 PLAYER 1 Is WINNER !!..👏🎈🎉🎊😉";
@@ -55,9 +55,9 @@
       val = Number(n) - res;
       document.getElementById("demo").innerHTML = "The no.of balls left in the bag are : " + val  ;
       if(val <=0 ){
-        document.getElementById("countButton1").innerHTML="";
-          document.getElementById("countButton2").innerHTML="";
-          document.getElementById("countButton3").innerHTML="";
+        document.getElementById("countButton1").disabled = true;
+          document.getElementById("countButton2").disabled = true;
+          document.getElementById("countButton3").disabled = true;
         if(count%2!=0){
           document.getElementById("remaining").innerHTML = "";
           
@@ -85,9 +85,9 @@
       val = Number(n) - res;
       document.getElementById("demo").innerHTML = "The no.of balls left in the bag are : " + val  ;
       if(val <=0){
-        document.getElementById("countButton1").innerHTML="";
-          document.getElementById("countButton2").innerHTML="";
-          document.getElementById("countButton3").innerHTML="";
+        document.getElementById("countButton1").disabled = true;
+          document.getElementById("countButton2").disabled = true;
+          document.getElementById("countButton3").disabled = true;
         if(count%2!=0){
           document.getElementById("remaining").innerHTML = "";
           document.getElementById("player1").innerHTML = "👏🎈🎉🎊😉 PLAYER 1 Is WINNER !!..👏🎈🎉🎊😉";
