@@ -1,4 +1,4 @@
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 300px) {
   body,marquee,.heading,h5,center,#st,h2,label,input,p,img,#form,#b,#demo,#player1,#name,#gametime,#stones,#players.players,button,marquee,img,.stones1,input[type=text] {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller   */
   }
