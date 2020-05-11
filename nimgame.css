@@ -1,10 +1,8 @@
-/* @media screen and (max-width: 350px) {
-  h1,.heading,h5,#b,#demo,#player1,.players,button,marquee,img,.stones1,input[type=text] {
+ /* @media screen and (max-width: 350px) {
+  body,marquee,.heading,h5,center,#st,h2,label,input,p,img,#form,#b,#demo,#player1,#name,#gametime,#stones,#players.players,button,marquee,img,.stones1,input[type=text] {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller 
- 
   }
-} */
-
+}  */
 
 body
 {
@@ -36,17 +34,18 @@ img
 {
   height: 100px;
   border-radius: 100%;
-/*   margin-left: 500px; */
-/*   float: left; */
+  /* margin-left: 200px;  */
+  /* float: left; */
 }
+
 input[type=text]{
 width:5%;
 border:none
-/* margin-left: 2px; */
+/* margin-left: 1px; */
 }
 button{
   color: white;
-/*   margin-left: 6%; */
+  /* margin-left: 6%; */
 font-size: 15px;
 padding: 11px;
 padding-right: 3%;
@@ -67,7 +66,7 @@ box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
 }
 .players
 {
-/*   margin-left: 35%; */
+  /* margin-left: 35%; */
 }
 h5
 {
@@ -75,14 +74,14 @@ h5
 }
 #b
 {
-/*   margin-right: 50%
-  float:left; */
+  /* margin-right: 50% */
+  /* float:left; */
   padding-left: 2%;
   padding-right: 2%;
 }
 #demo{
   font-family: 'Lobster', cursive;
-/*   margin-left: 5%; */
+  /* margin-left: 5%; */
   font-size: 25px;
   color: #cc0e74;
 }
@@ -91,5 +90,4 @@ h5
   font-family: 'Lobster', cursive;
   font-family: 'Dancing Script', cursive;
   color:#0a065d;
-
 }
